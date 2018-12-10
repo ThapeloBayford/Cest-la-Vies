@@ -38,12 +38,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: BackGround
-    uniqueID: 3677122017
-    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Spining wheel
-    uniqueID: 495863771
     locked: 0

@@ -19,13 +19,30 @@ public class GameHandler : MonoBehaviour {
 		PlayerPrefs.SetInt("numberOfCars", 0);
 		PlayerPrefs.SetInt("numberOfBusiness", 0);
 		PlayerPrefs.SetInt("numberOfStocks", 0);
-		PlayerPrefs.SetInt("priceOfHouses", 0);
-		PlayerPrefs.SetInt("priceOfCars", 0);
-		PlayerPrefs.SetInt("priceOfBusiness", 0);
-		PlayerPrefs.SetInt("priceOfStocks", 0);
+		PlayerPrefs.SetInt("priceOfHouses", 15);
+		PlayerPrefs.SetInt("priceOfCars", 8);
+		PlayerPrefs.SetInt("priceOfBusiness", 30);
+		PlayerPrefs.SetInt("priceOfStocks", 25);
 
 
 	}
+		public static void Saver(int Currency,int Networth,int numberOfHouses,int numberOfCars,int numberOfBusiness,int numberOfStocks,int priceOfHouses,int priceOfCars,int priceOfBusiness,int priceOfStocks) {
+
+		PlayerPrefs.SetInt("Currency",Currency);
+		PlayerPrefs.SetInt("Networth",Networth);
+		PlayerPrefs.SetInt("numberOfHouses",numberOfHouses);
+		PlayerPrefs.SetInt("numberOfCars",numberOfCars);
+		PlayerPrefs.SetInt("numberOfBusiness",numberOfBusiness);
+		PlayerPrefs.SetInt("numberOfStocks",numberOfStocks);
+		PlayerPrefs.SetInt("priceOfHouses",priceOfHouses);
+		PlayerPrefs.SetInt("priceOfCars",priceOfCars);
+		PlayerPrefs.SetInt("priceOfBusiness",priceOfBusiness);
+		PlayerPrefs.SetInt("priceOfStocks",priceOfStocks);
+
+
+
+	}
+
 	public void Spin(){
 		Debug.Log("Player Inventory:" +playerInventory.getNumberOfHouses());
 

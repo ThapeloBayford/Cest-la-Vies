@@ -3,7 +3,7 @@ namespace GameLogic
 {
 	public class Inventory {
 
-	private int numberOfHouses =2;
+	private int numberOfHouses =0;
 	private int numberOfCars=0;
 	private int numberOfBusiness=0;
 	private int numberOfStocks=0;

@@ -622,8 +622,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1010841762}
-        m_MethodName: ShowSpin
+      - m_Target: {fileID: 1010841763}
+        m_MethodName: addStock
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -745,8 +745,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1010841762}
-        m_MethodName: ShowSpin
+      - m_Target: {fileID: 1010841763}
+        m_MethodName: addCar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2346,8 +2346,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1010841762}
-        m_MethodName: ShowSpin
+      - m_Target: {fileID: 1010841763}
+        m_MethodName: removeCar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4246,8 +4246,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1010841762}
-        m_MethodName: ShowSpin
+      - m_Target: {fileID: 1010841763}
+        m_MethodName: removeHouse
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4903,8 +4903,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1010841762}
-        m_MethodName: ShowSpin
+      - m_Target: {fileID: 1010841763}
+        m_MethodName: removeStock
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5544,8 +5544,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1010841762}
-        m_MethodName: ShowSpin
+      - m_Target: {fileID: 1010841763}
+        m_MethodName: addBusiness
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6479,8 +6479,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1010841762}
-        m_MethodName: ShowSpin
+      - m_Target: {fileID: 1010841763}
+        m_MethodName: removeBusiness
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

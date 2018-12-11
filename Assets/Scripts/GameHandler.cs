@@ -40,7 +40,6 @@ public class GameHandler : MonoBehaviour {
 		PlayerPrefs.SetInt("priceOfStocks",priceOfStocks);
 
 
-
 	}
 
 	public void Spin(){

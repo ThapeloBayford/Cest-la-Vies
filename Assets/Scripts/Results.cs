@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.GameObject;
+using UnityEngine.UI;
 
 public class Results : MonoBehaviour {
 
@@ -15,26 +15,34 @@ public class Results : MonoBehaviour {
 	public GameObject House1;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 
-				switch (PlayerPrefs.GetInt("state"))
+				switch (1)
 		{		
 			case 1://case one is growth
-					Business1.setActive(false);
-					Stock1.setActive(false);
-					House1.setActive(false);
-					Car.setActive(false);
+					Business1.SetActive(false);
+					Stock1.SetActive(false);
+					House1.SetActive(false);
+					Car.SetActive(false);
 				break;
 			case 2://depression
-					Debug.Log("currency before depression:" +player1.getCurrency());
-					player1.deductCurrency(22);
-					Debug.Log("currency after depression:" +player1.getCurrency());
+					Business.SetActive(false);
+					Stock.SetActive(false);
+					House.SetActive(false);
+					Car.SetActive(false);
 			    break;
-			case 3: //stagnation
-					Debug.Log("stagantion:");
+			case 3: //trough
+					Business1.SetActive(false);
+					Stock1.SetActive(false);
+					Stock.SetActive(false);
+					House1.SetActive(false);
+					Car.SetActive(false);
 			     break;
-			case 4: //trough
-					Debug.Log("trough:");
+			case 4: //peak
+					Business1.SetActive(false);
+					Stock1.SetActive(false);
+					House1.SetActive(false);
+					Car.SetActive(false);
 					break;
 			default: Debug.Log("switch not executed properly");
 			break;

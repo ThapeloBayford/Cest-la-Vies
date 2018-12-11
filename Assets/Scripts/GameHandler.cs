@@ -5,13 +5,15 @@ using randomizer = System.Random;
 using GameLogic;
 
 public class GameHandler : MonoBehaviour {
-
+	Player player1;
+	Inventory playerInventory;
 	// Use this for initialization
-	void Start () {
+	public static void Start() {
 
 		Player player1 = new Player();
 		Inventory playerInventory = new Inventory();
-		
+	}
+	public void Spin(){
 		Debug.Log("Player Inventory:" +playerInventory.getNumberOfHouses());
 
 		randomizer r = new randomizer();

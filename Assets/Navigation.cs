@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using GameLogic;
+
 
 public class Navigation : MonoBehaviour {
 
@@ -28,6 +30,12 @@ public class Navigation : MonoBehaviour {
 		public void ShowStart()
 	{
 		SceneManager.LoadScene("StartPage");
+
+	}	public void StartGame()
+	{
+		SceneManager.LoadScene("Action");
+		GameHandler.Start();
+		
 
 	}
 }

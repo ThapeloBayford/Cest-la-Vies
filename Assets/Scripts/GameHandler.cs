@@ -12,6 +12,8 @@ public class GameHandler : MonoBehaviour {
 
 		Player player1 = new Player();
 		Inventory playerInventory = new Inventory();
+		Debug.Log("Player Inventory:" +playerInventory.getNumberOfHouses());
+		
 	}
 	public void Spin(){
 		Debug.Log("Player Inventory:" +playerInventory.getNumberOfHouses());

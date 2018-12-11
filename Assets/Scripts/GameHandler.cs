@@ -5,7 +5,7 @@ using randomizer = System.Random;
 using GameLogic;
 
 public class GameHandler : MonoBehaviour {
-	Player player1;
+	public Player player1;
 	Inventory playerInventory;
 	// Use this for initialization
 	public static void Start() {
@@ -13,7 +13,18 @@ public class GameHandler : MonoBehaviour {
 		Player player1 = new Player();
 		Inventory playerInventory = new Inventory();
 		Debug.Log("Player Inventory:" +playerInventory.getNumberOfHouses());
-		
+		PlayerPrefs.SetInt("Currency", player1.getCurrency());
+		PlayerPrefs.SetInt("Networth", player1.getCurrency());
+		PlayerPrefs.SetInt("numberOfHouses", 0);
+		PlayerPrefs.SetInt("numberOfCars", 0);
+		PlayerPrefs.SetInt("numberOfBusiness", 0);
+		PlayerPrefs.SetInt("numberOfStocks", 0);
+		PlayerPrefs.SetInt("priceOfHouses", 0);
+		PlayerPrefs.SetInt("priceOfCars", 0);
+		PlayerPrefs.SetInt("priceOfBusiness", 0);
+		PlayerPrefs.SetInt("priceOfStocks", 0);
+
+
 	}
 	public void Spin(){
 		Debug.Log("Player Inventory:" +playerInventory.getNumberOfHouses());

@@ -22,6 +22,11 @@ public class Navigation : MonoBehaviour {
 		SceneManager.LoadScene("Action");
 
 	}
+		public void ShowGameOver()
+	{
+		SceneManager.LoadScene("GameOver");
+
+	}
 		public void ShowResult()
 	{
 		SceneManager.LoadScene("Result");
@@ -33,9 +38,7 @@ public class Navigation : MonoBehaviour {
 
 	}	public void StartGame()
 	{
-		SceneManager.LoadScene("Action");
+		SceneManager.LoadScene("StartPage");
 		GameHandler.Start();
-		
-
 	}
 }

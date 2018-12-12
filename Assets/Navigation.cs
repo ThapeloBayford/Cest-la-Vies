@@ -38,7 +38,7 @@ public class Navigation : MonoBehaviour {
 
 	}	public void StartGame()
 	{
-		SceneManager.LoadScene("Action");
+		SceneManager.LoadScene("StartPage");
 		GameHandler.Start();
 	}
 }

@@ -146,7 +146,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -916,6 +916,7 @@ GameObject:
   - component: {fileID: 1073930491}
   - component: {fileID: 1073930490}
   - component: {fileID: 1073930489}
+  - component: {fileID: 1073930492}
   m_Layer: 5
   m_Name: Proceed
   m_TagString: Untagged
@@ -1028,6 +1029,20 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1073930487}
   m_CullTransparentMesh: 0
+--- !u!114 &1073930492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1073930487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.1254902}
+  m_EffectDistance: {x: 8.98, y: -12.84}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1081452314
 GameObject:
   m_ObjectHideFlags: 0
